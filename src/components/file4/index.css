@@ -1,0 +1,80 @@
+.image {
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+}
+.box1 {
+  height: 400px;
+  width: 500px;
+  border: solid;
+  border-radius: 20px;
+  font-style: italic;
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
+}
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: rgb(133, 170, 250);
+  height: 35px;
+  color: white;
+  border-radius: 20px;
+  width: 105px;
+}
+.flag {
+  height: 100px;
+  width: 230;
+}
+.country {
+  height: 200px;
+  width: 230px;
+  border: solid;
+  border-color: aliceblue;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.ser {
+  text-align: center;
+  color: white;
+}
+.pa {
+  text-align: center;
+  color: white;
+}
+.add {
+  background-image: url('https://res.cloudinary.com/dzleppv07/image/upload/v1686826731/photo-1636953056323-9c09fdd74fa6_zhxfvm.jpg');
+  background-size: cover;
+  min-height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dree {
+  color: white;
+  margin: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.email {
+  margin-right: 20px;
+}
+.mob {
+  color: white;
+  text-decoration: none;
+}

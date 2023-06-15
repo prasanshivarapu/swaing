@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.img1 {
+  background-image: url('https://res.cloudinary.com/dzleppv07/image/upload/v1686811617/file-20220913-2241-id16e.jpg_eipxsv.jpg');
+  background-size: cover;
+  height: 12vh;
+}
+.icon {
+  color: white;
+  margin-right: 20px;
+  margin: 5px;
+  font-size: 40px;
+}
+.main1 {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.main2 {
+  display: flex;
+  margin-right: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.home {
+  color: white;
+  margin-right: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  margin-left: 10px;
+  color: whitesmoke;
+  width: 85px;
+  height: 25px;
+
+  font-size: 25px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next {
+  display: none;
+  background-color: rgb(57, 139, 231);
+  min-height: 100vh;
+
+  background-size: cover;
+}
+
+@media screen and (min-width: 756px) {
+  .next {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+.part {
+  width: 100%;
+  background-color: rgb(57, 139, 231);
+}
